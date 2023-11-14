@@ -1,0 +1,101 @@
+
+
+class Car {
+
+	void steering() {
+		System.out.println("inside steering()");
+	}
+}
+
+class Polo extends Car {
+
+	void abs() {
+		System.out.println("inisde abs()");
+	}
+}
+
+
+
+public class Inheritance {
+	
+	public static void main(String[] args) {
+		
+		Car car1 = new Car();
+		Polo polo = new Polo();
+		
+		Car car2 = new Polo();//Here I am trying to hold the object of child class in the
+								//reference variable of parent class which is possible only and 
+								//only if there is inheritance involved....  
+		
+		//Polo polo2 = new Car();//This is illegal since I am trying to hold the object of parent 
+								//class in the reference variable of child class...
+	}
+}
+
+
+//
+//class Car {
+//
+//	void steering() {
+//		System.out.println("inside steering()");
+//	}
+//}
+//
+//class Polo extends Car {
+//
+//	void abs() {
+//		System.out.println("inisde abs()");
+//	}
+//}
+//
+//class Verna extends Car {
+//
+//	void climateControl() {
+//		System.out.println("inside climateControl()");
+//	}
+//}
+//
+//public class Inheritance {
+//	
+//	public static void main(String[] args) {
+//		
+//		Car car = new Car();    car.steering();   
+//		Polo polo = new Polo();   polo.abs();   polo.abs();  polo.steering();
+//		Verna verna = new Verna();    verna.climateControl();   verna.steering();
+//	}
+//}
+
+
+
+//
+//class Car {
+//
+//	void steering() {
+//		System.out.println("inside steering()");
+//	}
+//}
+//
+//class Polo {
+//
+//	void abs() {
+//		System.out.println("inisde abs()");
+//	}
+//}
+//
+//class Verna {
+//
+//	void climateControl() {
+//		System.out.println("inside climateControl()");
+//	}
+//}
+//
+//public class Inheritance {
+//	
+//	public static void main(String[] args) {
+//		
+//		Car car = new Car();    car.steering();
+//		Polo polo = new Polo();   polo.abs();
+//		Verna verna = new Verna();    verna.climateControl();
+//	}
+//
+//}

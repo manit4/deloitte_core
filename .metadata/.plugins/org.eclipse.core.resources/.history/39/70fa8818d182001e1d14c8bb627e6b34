@@ -1,0 +1,438 @@
+public class OopsStart {
+
+	int i = 4, j = 5;
+	static int k;
+
+	public static void main(String[] args) {
+		
+		OopsStart o1 = new OopsStart();
+		OopsStart o2 = new OopsStart();
+		
+		o1.add();
+		o2.add();
+	}
+
+	void add() {
+
+		k = i + j + k;
+		System.out.println(k);
+	}
+}
+
+
+//public class OopsStart {
+//
+//	static int k;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println(k);
+//
+//	}	
+//}
+
+
+
+
+//public class OopsStart {
+//	
+//	int i = 4, j = 5, k;
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o2.add(o1.j);
+//	}
+//
+//	void add(int passedValue) {
+//
+//		k = i + passedValue;
+//		
+//		System.out.println(k);
+//
+//	}
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4, j = 5, k;
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o2.add(o1);
+//	}
+//
+//	void add(OopsStart obj) {
+//
+//		k = i + obj.j;
+//		
+//		System.out.println(k);
+//
+//	}
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4, j = 5, k;
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o1.add(o2);
+//		//o2.add();
+//	}
+//
+//	void add(OopsStart obj) {
+//
+//		obj.k = obj.i + j;
+//		
+//		System.out.println(obj.k);
+//
+//	}
+//}
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//
+//		int i = 4;
+//		
+//		OopsStart o1 = new OopsStart();
+//
+//		int returnedValue =  o1.add(i);
+//		
+//		System.out.println(returnedValue);
+//
+//	}
+//
+//	int add(int i) {
+//
+//		System.out.println(i);
+//		
+//		int k = 45;
+//		
+//		k = k * i;
+//		
+//		return k;
+//
+//	}
+//}
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//
+//		int i = 4;
+//		boolean status = true;
+//
+//		OopsStart o1 = new OopsStart();
+//
+//		o1.add(i, status);
+//
+//	}
+//
+//	void add(int value, boolean b) {
+//
+//		System.out.println(value);
+//		System.out.println(b);
+//
+//	}
+//}
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//		
+//		int i = 4;
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.add(i);
+//
+//		
+//
+//	}
+//	
+//	void add(int value) {
+//		
+//		System.out.println(value);
+//		
+//	}
+//}
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		
+//		int returnedValue = o1.add();
+//		
+//		System.out.println(returnedValue);
+//
+//	}
+//	
+//	int add() {
+//		
+//		int i = 4, j = 5, k = 0;
+//		
+//		k = i + j;
+//		
+//		return k;
+//		
+//	}
+//}
+
+//public class OopsStart {
+//
+//	int i = 4, j = 5, k;
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.add();
+//		
+//		System.out.println(o1.k);
+//
+//	}
+//	
+//	void add() {
+//		
+//		k = i + j;
+//		
+//	}
+//}
+
+//public class OopsStart {
+//
+//	int i = 4, j = 5, k;
+//
+//	public static void main(String[] args) {
+//
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.add();
+//		
+//		//System.out.println(k);
+//
+//	}
+//	
+//	void add() {
+//		
+//		k = i + j;
+//		
+//		System.out.println(k);
+//	}
+//	
+//	void sub() {
+//		
+//		k = i - j;
+//		
+//		System.out.println(k);
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//		
+//		
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o1.display();
+//		o2.display();
+//
+//	}
+//
+//	void display() {
+//		
+//		int i = 20;
+//		
+//		System.out.println(this.i);
+//
+//	}
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//		
+//		int i = 10;
+//		
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o1.i = 10;
+//		
+//		o1.display();
+//		o2.display();
+//
+//	}
+//
+//	void display() {
+//		
+//		int i = 20;
+//		
+//		System.out.println(i);
+//
+//	}
+//}
+
+//
+//
+//public class OopsStart {
+//	
+//	int i = 4;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//		
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+//		o1.i = 10;
+//		
+//		o1.display();
+//		o2.display();
+//
+//	}
+//
+//	void display() {
+//		
+//		System.out.println(i);
+//
+//	}
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		System.out.println(o1.i);
+//		
+//		o1.display();
+//
+//	}
+//
+//	void display() {
+//		
+//		System.out.println(i);
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//
+//	}
+//
+//	void display() {
+//		
+//		System.out.println("inside display...");
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int k;
+//	
+//	public static void main(String[] args) {
+//		
+//		int j = 5;
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.k = o1.i + j;
+//		
+//		System.out.println(o1.k);
+//		
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int j = 5;
+//	int k;
+//	
+//	public static void main(String[] args) {
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.k = o1.i + o1.j;
+//		
+//		System.out.println(o1.k);
+//		
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int j = 5;
+//	
+//	public static void main(String[] args) {
+//		
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+//		
+//		System.out.println(o1.i);
+//		System.out.println(o1.j);
+//		
+//		System.out.println(o2.i);
+//		System.out.println(o2.j);
+//		
+//		System.out.println("After changing values...");
+//		
+//		o1.j = 10;
+//		o2.i = 50;
+//		
+//		System.out.println(o1.i);
+//		System.out.println(o1.j);
+//		
+//		System.out.println(o2.i);
+//		System.out.println(o2.j);
+//	}
+//
+//}

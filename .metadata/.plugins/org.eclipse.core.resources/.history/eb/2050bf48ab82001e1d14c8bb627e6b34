@@ -1,0 +1,15 @@
+
+public class OopsStart {
+	
+	int i = 5;
+	int j = 5;
+	
+	public static void main(String[] args) {
+		
+		OopsStart o1 = new OopsStart();
+		
+		System.out.println(o1.i);
+		System.out.println(o1.j);
+	}
+
+}

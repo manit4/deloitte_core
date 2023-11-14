@@ -1,0 +1,19 @@
+
+public class OopsStart {
+	
+	int i = 4;
+	int j = 5;
+	
+	public static void main(String[] args) {
+		
+		OopsStart o1 = new OopsStart();
+		OopsStart o2 = new OopsStart();
+		
+		System.out.println(o1.i);
+		System.out.println(o1.j);
+		
+		System.out.println(o2.i);
+		System.out.println(o2.j);
+	}
+
+}

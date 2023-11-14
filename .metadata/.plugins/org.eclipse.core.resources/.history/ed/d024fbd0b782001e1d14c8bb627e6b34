@@ -1,0 +1,138 @@
+
+
+public class OopsStart {
+	
+	int i = 4;
+
+	public static void main(String[] args) {
+		
+		System.out.println("inside main()...");
+		
+		OopsStart o1 = new OopsStart();
+		
+		o1.display();
+
+	}
+
+	void display() {
+		
+		System.out.println(i);
+
+	}
+}
+
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		System.out.println(o1.i);
+//		
+//		o1.display();
+//
+//	}
+//
+//	void display() {
+//		
+//		System.out.println(i);
+//
+//	}
+//
+//}
+
+
+//public class OopsStart {
+//
+//	public static void main(String[] args) {
+//		
+//		System.out.println("inside main()...");
+//
+//	}
+//
+//	void display() {
+//		
+//		System.out.println("inside display...");
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int k;
+//	
+//	public static void main(String[] args) {
+//		
+//		int j = 5;
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.k = o1.i + j;
+//		
+//		System.out.println(o1.k);
+//		
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int j = 5;
+//	int k;
+//	
+//	public static void main(String[] args) {
+//		
+//		OopsStart o1 = new OopsStart();
+//		
+//		o1.k = o1.i + o1.j;
+//		
+//		System.out.println(o1.k);
+//		
+//
+//	}
+//
+//}
+
+//public class OopsStart {
+//	
+//	int i = 4;
+//	int j = 5;
+//	
+//	public static void main(String[] args) {
+//		
+//		OopsStart o1 = new OopsStart();
+//		OopsStart o2 = new OopsStart();
+//		
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+////		System.out.println("hello there");
+//		
+//		System.out.println(o1.i);
+//		System.out.println(o1.j);
+//		
+//		System.out.println(o2.i);
+//		System.out.println(o2.j);
+//		
+//		System.out.println("After changing values...");
+//		
+//		o1.j = 10;
+//		o2.i = 50;
+//		
+//		System.out.println(o1.i);
+//		System.out.println(o1.j);
+//		
+//		System.out.println(o2.i);
+//		System.out.println(o2.j);
+//	}
+//
+//}

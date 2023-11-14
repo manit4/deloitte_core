@@ -1,0 +1,66 @@
+
+class Car {
+
+	void steering() {
+		System.out.println("inside steering()");
+	}
+}
+
+class Polo extends Car {
+
+	void abs() {
+		System.out.println("inisde abs()");
+	}
+}
+
+class Verna extends Car {
+
+	void climateControl() {
+		System.out.println("inside climateControl()");
+	}
+}
+
+public class Inheritance {
+	
+	public static void main(String[] args) {
+		
+		Car car = new Car();    car.steering();   
+		Polo polo = new Polo();   polo.abs();   polo.abs();  polo.steering();
+		Verna verna = new Verna();    verna.climateControl();   verna.steering();
+	}
+}
+
+
+
+//
+//class Car {
+//
+//	void steering() {
+//		System.out.println("inside steering()");
+//	}
+//}
+//
+//class Polo {
+//
+//	void abs() {
+//		System.out.println("inisde abs()");
+//	}
+//}
+//
+//class Verna {
+//
+//	void climateControl() {
+//		System.out.println("inside climateControl()");
+//	}
+//}
+//
+//public class Inheritance {
+//	
+//	public static void main(String[] args) {
+//		
+//		Car car = new Car();    car.steering();
+//		Polo polo = new Polo();   polo.abs();
+//		Verna verna = new Verna();    verna.climateControl();
+//	}
+//
+//}
